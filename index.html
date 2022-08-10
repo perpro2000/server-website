@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Minecraft Civilization - SMP!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="tailwindcss.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/973217483307774019/997897171418488842/logo.png">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar bg-purple-800 text-white flex justify-between text-base">
+      <span class=" text-xl flex items-center mx-3 font-bold uppercase cursor-pointer" style="font-family: 'Courier New', Courier, monospace;"><img src="https://cdn.discordapp.com/attachments/973217483307774019/997897171418488842/logo.png" alt="lg" class="text-sm flex items-center mx-2 w-10 h-10 cursor-pointer rounded-xl">The Minecraft Civilization - SMP!</span>
+      <!-- 1 home 2 shop 3 Info 4 season 3 -->
+      <ul class="px-27 py-4 flex space-x-11 justify-end">
+       <a onclick="openCity(event, 'Home')">
+         <li class="hover:text-black hover:underline hover:underline-offset-8 cursor-pointer">HOME</li>
+        </a>
+        <li class="dropdown">
+          <a href="#" class="dropdown">SHOP</a>
+          <i class='bx bxs-chevron-down'></i>
+          <ul class="dropdown-content">
+               <a onclick="openCity(event, 'Shop')" class="cursor-pointer">Shop</a>
+               <hr>
+               <a onclick="openCity(event, 'Rank')" class="cursor-pointer">Rank</a>
+          </ul>
+        </li>
+        <a  onclick="openCity(event, 'Info')">
+          <li class="hover:text-black hover:underline hover:underline-offset-8 cursor-pointer">INFO</li>
+        </a>
+        <a  onclick="openCity(event, 'Season')">
+          <li class="hover:text-black hover:underline hover:underline-offset-8 cursor-pointer">SEASON</li>
+        </a>  
+        <a  onclick="openCity(event, 'STATISTIC')">
+          <li class="hover:text-black hover:underline hover:underline-offset-8 cursor-pointer">STATISTIC</li>
+        </a>  
+        <a  onclick="openCity(event, 'More')"><li class="hover:text-black hover:underline hover:underline-offset-8 cursor-pointer">MORE</li></a>
+      </ul>
+    </nav>
+  </header>
+
+<div id="Home" class="my-8 mx-8 tablinks tabcontent+">
+
+  <p>
+    <p>
+      <strong>
+        <div class="panel-heading hover:underline">Welcome to the minecraft civilization!</div>
+      </strong>
+    </p>
+<ul class="list-disc border-x-4 border-b-4 border-black home-text text-lg">
+    <p >
+      <li>&nbsp &nbsp This server is about having fun on a fun smp with recently updates and new features.</li>
+      <br />&nbsp &nbsp We are now in season 3 thats about custom enchants and other cool features.
+      <br />&nbsp &nbsp In season 3 is the pvp season with custom enchants and much pvp arenas and pvp events. Also it's lifesteal
+      <br /><br />&nbsp &nbsp About the events, the events we have on the server are fun and nice exepriences and funny things, there are too discord events or staff events all nice.
+      <br /><br />&nbsp &nbsp I hope you enjoy the server.<br><br>
+    </p>
+    <p>
+    <br/>
+  </p>
+</p>
+</ul>
+</div>
+
+<div id="Shop" class="tabcontent tablinks">
+
+
+
+</div>
+
+<div id="Rank" class="tabcontent tablinks">
+
+ <p>Coming Soon</p>
+
+</div>
+<div id="Info" class="tabcontent tablinks mx-4 my-4">
+  <p class="panel-heading">The Custom enchants</p>
+
+  <details>
+    <summary> Anti-Gravity</summary>
+    <p class="para">Makes arrows unaffected by gravity.</p>
+  </details>
+  <details>
+    <summary>Autosmelt</summary>
+    <p class="para">Broken block will be smelted automatically.</p>
+  </details>
+  <details>
+    <summary>Beheading</summary>
+    <p class="para">Killing a mob will have a chance to drop their head.</p>
+  </details>
+  <details>
+    <summary>Deflect</summary>
+    <p class="para">Nullifies first taken damage. Consumes 1 emerald from inventory per hit.</p>
+  </details>
+  <details>
+    <summary>Direct</summary>
+    <p class="para"> Dropped items will be teleported to the inventory.</p>
+  </details>
+  <details>
+    <summary>Experience Boost</summary>
+    <p class="para">Grants a chance to double the experience amount given by experience orbs.</p>
+  </details>
+  <details>
+    <summary>Eyes of Owl</summary>
+    <p class="para">Adds night vision ability to your helmet.</p>
+  </details>
+  <details>
+    <summary>Feeding Module</summary>
+    <p class="para">Feeds you automatically. Has saturation mode to keep you regenerate.</p>
+  </details>
+  <details>
+    <summary>Health Boost</summary>
+    <p class="para">Increases max health.</p>
+  </details>
+  <details>
+    <summary>Heaven's Lightness</summary>
+    <p class="para">Adds slow falling ability to your chestplate.</p>
+  </details>
+  <details>
+    <summary>Icy</summary>
+    <p class="para">Slows down the enemy by 60% and disables jumping for players.</p>
+  </details>
+  <details>
+    <summary>Lava Walker</summary>
+    <p class="para">Turns lava below your feet into basalt blocks.</p>
+  </details>
+  <details>
+    <summary>Leaping</summary>
+    <p class="para">Increases jump height up to 4 blocks.</p>
+  </details>
+  <details>
+    <summary>Lifesteal</summary>
+    <p class="para">Killing a mob or a player will heal you.</p>
+  </details>
+  <details>
+    <summary>Lumberjack</summary>
+    <p class="para">Breaking one log will also break all other logs. Can also break the leaves.</p>
+  </details>
+  <details>
+    <summary>Stone Fists</summary>
+    <p class="para">Increases attack damage up to +9 attack damage.</p>
+  </details>
+  <details>
+    <summary>Thermal Plating</summary>
+    <p class="para">Adds fire resistance ability to your armor.</p>
+  </details>
+  <details>
+    <summary>Traveler</summary>
+    <p class="para">Increases movement speed up to +120% speed.</p>
+  </details>
+  <details>
+    <summary>Unbreakable</summary>
+    <p class="para">Makes your item completely unbreakable.</p>
+  </details>
+  <details>
+    <summary>Vein Miner</summary>
+    <p class="para">Breaking one block will break the whole vein. Can also break certain blocks.</p>
+  </details>
+  <details>
+   <summary>Wide</summary>
+<p class="para">Increases tool range up to 7x7 including block breaking, axe stripping, shovel pathing and hoeing.</p>
+  </details> 
+
+</div>
+
+<div id="Season" class="tabcontent tablinks">
+
+ <p>Coming Soon</p>
+
+</div>
+
+<div id="STATISTIC" class="tabcontent tablinks">
+  <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>
+
+  There are <span data-playercounter-ip="5.9.40.120:25712">0</span> players on the server right now.
+
+</div>
+
+<div id="More" class="tabcontent tablinks">
+
+ <p>Coming Soon</p>
+
+</div>
+<a href="https://discord.gg/kzZJvQcBdG" class="socials" style="bottom: 100px;" target="_blank"><img src="images/discordblue.png"> Discord</a>
+<script src="index.js"></script>
+</body>
+</html>
